@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "deed3c67-b9c2-47e8-b01d-0b6b9cc213da",
+		"name": "Marketing API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25808790"
+	},
+	"item": [
+		{
+			"name": "Submit Wheelchair Lead",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "686554ae28075beea0faec99674dcbc5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"smartFormSubmission\": {\r\n        \"id\": \"cl6o72d8z00bv0bsda1vo4y37\",\r\n        \"createdAt\": \"2022-08-10 04:39 PM\",\r\n        \"updatedAt\": \"2022-08-10 04:39 PM\",\r\n        \"submissionDate\": \"2022-08-10\",\r\n        \"submissionTime\": \"04:39 PM\",\r\n        \"variantId\": \"cl6o63z5z006m0bsdlmdd2jm6\",\r\n        \"variantName\": \"Variant A\",\r\n        \"firstName\": \"ignore\",\r\n        \"lastName\": \"this\",\r\n        \"email\": \"not.used@disney.com\",\r\n        \"phoneNumber\": \"555-555-5555\",\r\n        \"formData\": {\r\n            \"last_name\": \"Bunny\",\r\n            \"first_name\": \"Bugs\",\r\n            \"use_answer\": \"Inside my residence\",\r\n            \"phone_number\": \"555-555-5555\",\r\n            \"email_address\": \"bugs.bunny@gmail.com\",\r\n            \"contact_answer\": \"on\",\r\n            \"interest_answer\": \"Power Wheelchair\",\r\n            \"equipment_answer\": \"Cane\",\r\n            \"insurance_answer\": \"Medicaid\",\r\n            \"secondary_answer\": \"Yes\"\r\n        },\r\n        \"metaData\": {\r\n            \"ip_address\": \"136.36.14.155\",\r\n            \"city\": \"Provo\",\r\n            \"state\": \"Utah\",\r\n            \"country\": \"United States\",\r\n            \"country_calling_code\": \"+1\",\r\n            \"browser\": \"Chrome\",\r\n            \"device_type\": \"Desktop\",\r\n            \"referring_url\": \"https://www.orbitmedical.com\"\r\n        },\r\n        \"responseData\": {}\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://10.211.55.7:7000/marketing/halda/wheelchair",
+					"protocol": "https",
+					"host": [
+						"10",
+						"211",
+						"55",
+						"7"
+					],
+					"port": "7000",
+					"path": [
+						"marketing",
+						"halda",
+						"wheelchair"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

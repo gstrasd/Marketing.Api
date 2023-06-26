@@ -1,0 +1,28 @@
+﻿<div style="color: #101010; font: 12px Arial;">
+    <p>
+        <span style="color: #000000; font-size: 14px"><strong>DETAILS:</strong></span><br />
+        A new {LeadSource} lead was submitted at {CreatedDate}, but a corresponding order couldn't be created. Use the information below to help diagnose the problem. To resubmit the lead, issue the HTTP request shown below.
+    </p>
+
+    <p>
+        <span style="color: #000000; font-size: 14px"><strong>INTAKE HISTORY:</strong></span><br/>
+        <span>
+            <strong>
+                <span style="color: #0033ff">SELECT</span> *<br/>
+                <span style="color: #0033ff">FROM</span> [{Database}].[dbo].[MarketingIntake]<br/>
+                <span style="color: #0033ff">WHERE</span> PayloadHash = <span style="color: #cc0000">&#39;{PayloadHash}&#39;</span><br/>
+                <span style="color: #0033ff">ORDER BY</span> [Id] <span style="color: #0033ff">DESC</span>
+            </strong>
+        </span>
+    </p>
+
+    <p>
+        <span style="color: #000000; font-size: 14px"><strong>FORM SUBMISSION:</strong></span><br/>
+        <strong>POST</strong> {Post} HTTP/1.1<br/>
+        <strong>Host:</strong> {Host}<br/>
+        <strong>Authorization:</strong> Bearer 686554ae28075beea0faec99674dcbc5<br/>
+        <strong>Content-Type:</strong> application/json<br/>
+        <strong>Content-Length:</strong> {ContentLength}<br/>
+        {Payload}
+    </p>
+</div>

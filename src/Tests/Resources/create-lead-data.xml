@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<Patient FirstName="Mickey" LastName="Mouse" DOB="01/01/1894" Gender="U" AreaCode="630" Prefix="770" Suffix="1000" Email="micky@disney.com" PrimaryInsurance="Medicaid" PrimaryPolicy="" SecondaryInsurance="Yes" SecondaryPolicy="" />
+	<Order Subject="New Order Notes" SalesRep="" ReferralId="" DischargeId="" Discharge="" LeadSource="Halda" SessionId="582895" IntakeOrderId="" DocType="Initial Documentation" />
+	<Items>
+		<Item ProductId="7085" DomainId="50" Name="" />
+	</Items>
+</Root>

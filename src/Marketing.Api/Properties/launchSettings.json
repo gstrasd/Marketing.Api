@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "Marketing API": {
+            "commandName": "Project",
+            "launchBrowser": false,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "https://10.211.55.7:7000;http://localhost:5221"
+        }
+    }
+}

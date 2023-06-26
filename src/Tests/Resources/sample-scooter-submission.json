@@ -1,0 +1,38 @@
+{
+    "smartFormSubmission": {
+        "id": "cl6o72d8z00bv0bsda1vo4y37",
+        "createdAt": "2022-08-10 04:39 PM",
+        "updatedAt": "2022-08-10 04:39 PM",
+        "submissionDate": "2022-08-10",
+        "submissionTime": "04:39 PM",
+        "variantId": "cl6o63z5z006m0bsdlmdd2jm6",
+        "variantName": "Variant A",
+        "firstName": "Mickey",
+        "lastName": "Mouse",
+        "email": "the.notorious.m.n.m@disney.com",
+        "phoneNumber": "630-770-1000",
+        "formData": {
+            "last_name": "Mouse",
+            "first_name": "Mickey",
+            "use_answer": "Inside my residence",
+            "phone_number": "630-770-1000",
+            "email_address": "micky@disney.com",
+            "contact_answer": "on",
+            "interest_answer": "Scooter",
+            "equipment_answer": "Cane",
+            "insurance_answer": "Medicaid",
+            "secondary_answer": "Yes"
+        },
+        "metaData": {
+            "ip_address": "136.36.14.155",
+            "city": "Provo",
+            "state": "Utah",
+            "country": "United States",
+            "country_calling_code": "+1",
+            "browser": "Chrome",
+            "device_type": "Desktop",
+            "referring_url": "https://www.orbitmedical.com"
+        },
+        "responseData": {}
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Logging": {
+
+    },
+    "Serilog": {
+        "Using": [ "Serilog.Sinks.File" ],
+        "MinimumLevel": "Debug",
+        "WriteTo": [
+            {
+                "Name": "RollingFile",
+                "Args": {
+                   // "Formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                    "PathFormat": "logs\\log.log",
+                    "RetainedFileCountLimit": 60
+                }
+            }
+        ]
+    }
+}

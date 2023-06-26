@@ -1,0 +1,44 @@
+POST /marketing/halda/wheelchair HTTP/1.1
+Host: 10.211.55.7:7000
+Authorization: Bearer 686554ae28075beea0faec99674dcbc5
+Content-Type: application/json
+Content-Length: 1338
+
+{
+    "smartFormSubmission": {
+        "id": "cl6o72d8z00bv0bsda1vo4y37",
+        "createdAt": "2022-08-10 04:39 PM",
+        "updatedAt": "2022-08-10 04:39 PM",
+        "submissionDate": "2022-08-10",
+        "submissionTime": "04:39 PM",
+        "variantId": "cl6o63z5z006m0bsdlmdd2jm6",
+        "variantName": "Variant A",
+        "firstName": "ignore",
+        "lastName": "this",
+        "email": "not.used@disney.com",
+        "phoneNumber": "555-555-5555",
+        "formData": {
+            "last_name": "Bunny",
+            "first_name": "Bugs",
+            "use_answer": "Inside my residence",
+            "phone_number": "555-555-5555",
+            "email_address": "bugs.bunny@gmail.com",
+            "contact_answer": "on",
+            "interest_answer": "Power Wheelchair",
+            "equipment_answer": "Cane",
+            "insurance_answer": "Medicaid",
+            "secondary_answer": "Yes"
+        },
+        "metaData": {
+            "ip_address": "136.36.14.155",
+            "city": "Provo",
+            "state": "Utah",
+            "country": "United States",
+            "country_calling_code": "+1",
+            "browser": "Chrome",
+            "device_type": "Desktop",
+            "referring_url": "https://www.orbitmedical.com"
+        },
+        "responseData": {}
+    }
+}
